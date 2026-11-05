@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 10000px;
+    font-family: sans-serif;
+   
+}
+.anc{
+    text-decoration: none;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+    color: black;
+    z-index: 999;
+    font-family: sans-serif;
+}
+#pills-tab{
+    margin-left: 62px;
+ }
+
+ .bg-color {
+  background-color: #f4f4f9 
+}
+
+.nav-pills .nav-link {
+  background-color: transparent ;
+  color: #000000 ;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #000000 ;
+  color: #ffffff ;
+}
+
+
+.motherdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.you{
+    position: relative;
+}
+.droptoo{
+    width: 25vw;
+    height:43vw;
+    background-color: white;
+    position: absolute;
+    justify-self: center;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* display: none; */
+    
+}
+
+.in{
+    display: column;
+    margin-left: 10px;
+    
+}
+
+.outer{
+    display: flex;
+    margin-left: 20px;
+}
+.links{
+    display: flex;
+    gap: 50px;
+}
+.dab{
+    position: relative;
+}
+.news{
+    text-decoration: none;
+}
+
+
+.login{
+    border: 1px solid blue;
+    background-color: white;
+    padding: 10px 15px;
+    color: blue;
+    border-radius: 10px;
+}
+
+.create{
+    color: white;
+    background-color: #4F3FD7;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown{
+    width: 21vh;
+    height: 20vh;
+    background-color: grey;
+    font-size: small;
+    display: none;
+    position: absolute;
+}
+.center:hover{
+    cursor: pointer;
+    .dropdown{
+display: block;
+    }
+    
+}
+
+.hero{
+    background: url(https://cdn.prod.website-files.com/67d85bdb392a92fa03e2f524/681149da8df0d9921c04e3fc_hero%20bg.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50vw;
+    /* background: url(https://cdn.prod.website-files.com/67d85bdb392a92fa03e2f524/67fd3b6d48813d28793babef_Hero%20img%20personal.webp); */
+    background-color: #4F3FD7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    
+}
+
+
+.BigFlag{
+    display: flex;
+    overflow: hidden;
+    scrollbar-width: none;
+    gap: 10px;
+}
+.flags{
+    animation: moving 17s linear infinite;
+}
+@keyframes moving {
+    0%{
+        transform: translateX(20);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+
+}
+.first{
+    margin-left: 30px;
+    width:60% ;
+    padding-top: 50px;
+    
+}
+.head{
+    display: flex;
+}
+.yes{
+    position: relative;
+    right: -300px;
+    z-index: 500;
+    top: 100px;
+   backdrop-filter: blur(50px);
+}
+.left{
+    position: relative;
+    right: -400px;
+    bottom:370px;
+    
+}
+h5{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.top{
+    color: black;
+    margin-top: 30vw;
+    text-align: center;
+}
+.topi{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
