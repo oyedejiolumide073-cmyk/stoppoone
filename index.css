@@ -1,15 +1,17 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: white;
     height: 10000px;
     font-family: sans-serif;
-   
+
 }
-.anc{
+
+.anc {
     text-decoration: none;
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
     background-color: white;
@@ -18,85 +20,98 @@ nav{
     z-index: 999;
     font-family: sans-serif;
 }
-#pills-tab{
-    margin-left: 62px;
- }
 
- .bg-color {
-  background-color: #f4f4f9 
+#pills-tab {
+    margin-left: 62px;
+
+}
+
+.bg-color {
+    background-color: #f4f4f9
 }
 
 .nav-pills .nav-link {
-  background-color: transparent ;
-  color: #000000 ;
+    background-color: transparent;
+    color: #000000;
 }
 
 .nav-pills .nav-link.active {
-  background-color: #000000 ;
-  color: #ffffff ;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 
-.motherdiv{
+.motherdiv {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    font-family: sans-serif;
 }
-.you{
+
+.you {
     position: relative;
+
 }
-.droptoo{
+
+.droptoo {
     width: 25vw;
-    height:43vw;
+    height: 43vw;
     background-color: white;
     position: absolute;
     justify-self: center;
     border: 0.5px solid grey;
     border-radius: 10px;
     margin-top: 20px;
-    /* display: none; */
-    
+    display: none;
+
 }
 
-.in{
+.in {
     display: column;
     margin-left: 10px;
-    
+
 }
 
-.outer{
+.outer {
     display: flex;
     margin-left: 20px;
 }
-.links{
+
+.links {
     display: flex;
     gap: 50px;
 }
-.dab{
+
+.dab {
     position: relative;
 }
-.news{
+
+.news {
     text-decoration: none;
 }
 
 
-.login{
+.login {
     border: 1px solid blue;
     background-color: white;
-    padding: 10px 15px;
+    padding: 5px 15px;
     color: blue;
     border-radius: 10px;
 }
 
-.create{
+.create {
     color: white;
     background-color: #4F3FD7;
-    padding: 12px 15px;
+    padding: 6px 15px;
     border: none;
     border-radius: 10px;
 }
 
-.dropdown{
+.tab{
+    display: none;
+}
+
+.dropdown {
     width: 21vh;
     height: 20vh;
     background-color: grey;
@@ -104,15 +119,21 @@ nav{
     display: none;
     position: absolute;
 }
-.center:hover{
+
+.center:hover {
     cursor: pointer;
-    .dropdown{
-display: block;
+
+    .dropdown {
+        display: block;
     }
-    
+
 }
 
-.hero{
+.menu {
+    display: none;
+}
+
+.hero {
     background: url(https://cdn.prod.website-files.com/67d85bdb392a92fa03e2f524/681149da8df0d9921c04e3fc_hero%20bg.svg);
     background-position: top;
     background-repeat: no-repeat;
@@ -123,70 +144,234 @@ display: block;
     background-color: #4F3FD7;
     overflow-x: hidden;
     overflow-y: hidden;
-    
-    
+
+
 }
 
 
-.BigFlag{
+.BigFlag {
     display: flex;
     overflow: hidden;
     scrollbar-width: none;
     gap: 10px;
 }
-.flags{
+
+.flags {
     animation: moving 17s linear infinite;
 }
+
 @keyframes moving {
-    0%{
+    0% {
         transform: translateX(20);
     }
-    100%{
+
+    100% {
         transform: translateX(-100%);
     }
 
 }
-.first{
-    margin-left: 30px;
-    width:60% ;
-    padding-top: 50px;
+
+.bigi{
+    font-size: 80px;
     
 }
-.head{
+.p-text{
+    width: 340px;
+
+}
+
+.first {
+    margin-left: 30px;
+    width: 60%;
+    padding-top: 50px;
+
+}
+
+.head {
     display: flex;
 }
-.yes{
-    position: relative;
-    right: -300px;
-    z-index: 500;
-    top: 100px;
-   backdrop-filter: blur(50px);
+
+.center {
+    margin-top: 8px
 }
-.left{
+
+.yes {
+    position: relative;
+    right: -500px;
+    z-index: 500;
+    top: -50px;
+    backdrop-filter: blur(50px);
+}
+
+.post {
+    margin-top: 8px;
+    display: flex;
+    gap: 35px;
+}
+
+.an {
+    color: blue;
+    background-color: white;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 15px;
+}
+
+.se {
+    display: flex;
+    gap: 10px;
+}
+
+
+.dropsef p {
+    margin-top: 10px;
+}
+
+.app {
+    background-color: #CAC5F3;
+    color: #000000;
+    padding: 10px 13px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+}
+
+.dropsef {
+    width: 24vh;
+    height: 30vh;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    color: black;
+    font-size: small;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+
+.app:hover {
+    .dropsef {
+        display: block;
+    }
+}
+
+.left {
     position: relative;
     right: -400px;
-    bottom:370px;
-    
+    bottom: 370px;
+
 }
-h5{
+
+h5 {
     text-align: center;
     margin-top: 40px;
     color: black;
 }
-.logos{
+
+.logos {
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
 
-.top{
+.top {
     color: black;
     margin-top: 30vw;
     text-align: center;
 }
-.topi{
+.tab{
+    display: none;
+}
+
+.topi {
     color: black;
     text-align: center;
     margin-top: 20px;
+}
+
+@media (min-width:0px) and (max-width:480px) {
+    .center {
+        display: none;
+    }
+
+    .post {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .create {
+        display: none;
+    }
+
+    .motherdiv img {
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 100px;
+    }
+
+    .toggle {
+        margin-left: -80px;
+    }
+
+    .menu {
+        display: block;
+    
+    }
+    .first{
+        width: 80%;
+        
+    }
+    .hero{
+        height: 200vw;
+    }
+    .bigi{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .p-text{
+        margin-top: 20px;
+    }
+    .logos{
+       
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    
+    
+
+
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+.post{
+    display: none;
+}
+.center{
+    display: none;
+}
+.end{
+    display: none;
+}
+.toggle{
+    margin-left: -120px;
+}
+.first{
+    width: 80%;
+}
+.hero{
+    height: 110vh;
+}
+.yes{
+    display: none;
+}
+.tab{
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
 }
