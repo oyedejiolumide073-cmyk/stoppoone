@@ -108,7 +108,7 @@ nav {
 }
 
 .tab{
-    display: none;
+    display: nonest;
 }
 
 .dropdown {
@@ -370,8 +370,87 @@ h5 {
 }
 .tab{
     display: block;
-    width: 100px;
-    height: auto;
+    margin-left: -80px;
 }
 
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.container-1{
+    width: 53vh;
+    height: 33vh;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #000000;
+    padding-left: 20px;
+    
+}
+
+.container-1 p{
+    font-size: smaller;
+}
+
+.container-1 h6{
+    margin-top: 30px;
+}
+
+.second{
+    width: 100vh;
+    height: 75vh;
+    background-color:#F8F8F8 ;
+    justify-self: center;
+    margin-top: 75px;
+    border-radius: 20px;
+   
+
+}
+
+.yh{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.star{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #24201E;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+.star p{
+    margin-top: 10px;
+}
+
+@media (min-width:0px) and (max-width:480px) {
+.container-1{
+width: 18vh;
+height: 55vh;
+padding-left:20px ;
+
+
+}
+.second{
+    display: none;
+}
+
+
+}
+@media (min-width:481px) and (max-width:1024px) {
+.container-1{
+width: 33vh;
+height: 20vh;
+}
+
+
+.second{
+    display: none;
+}
 }
